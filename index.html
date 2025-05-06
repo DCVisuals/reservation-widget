@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Réservation - Beds24</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://media.xmlcal.com/widget/1.00/js/bookWidget.min.js"></script>
+</head>
+<body style="margin:0;padding:0;">
+    <div id="bookWidget-94248-205844-0-1746532012" style="max-width: 600px; margin: auto;"></div>
+
+    <script>
+        jQuery(document).ready(function() {
+            jQuery('#bookWidget-94248-205844-0-1746532012').bookWidget({
+                propid: 205844,
+                formAction: 'https://beds24.com/booking.php',
+                widgetLang: 'fr',
+                widgetType: 'BookingBox'
+            });
+        });
+    </script>
+</body>
+</html>
